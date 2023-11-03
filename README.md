@@ -247,3 +247,5 @@ This is the recovered signal of the second message at 1kHz frequency. As shown i
 ![image](https://github.com/blee0730/Digital-Comm-Lab-5/assets/130094173/2fe58532-10e5-4107-b3fe-39377f83a78f)
 
 This is the same waveform but the frequency spectrum is more visible showing that the 1kHz spikes are higher than the 2kHz spikes.
+
+Unfortunately due to the lack of proper modules it was not possible to see the QAM using constellations which would have shown multiple symbols with their amplitudes being modulated to create a square of symbols.
