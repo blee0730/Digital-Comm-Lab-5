@@ -227,3 +227,23 @@ Question 5: Given the spectral composition of the two DSBSC signals on the Adder
 The carrier frequency is the same for both at 100kHz and there should now be sidebands at 1kHz away and 2kHz away.
 
 ### Part B - Using phase discrimination to recover demodulate the QAM signal
+
+![image](https://github.com/blee0730/Digital-Comm-Lab-5/assets/130094173/9978a71e-f418-4284-b889-d17c23e1115d)
+
+This is the block diagram used to recover one of the messages while rejecting the other message depending on the phase splitter and low pass filter's adjustable components.
+
+![image](https://github.com/blee0730/Digital-Comm-Lab-5/assets/130094173/d68145f9-084f-4f80-b7c9-7c7fc605933d)
+
+This is the recovered signal of the first message at 2kHz frequency. As shown in the picture the time domain shows the same 2kHz frequency as the original message.
+
+![image](https://github.com/blee0730/Digital-Comm-Lab-5/assets/130094173/ed1f020d-915d-4dfd-bb9d-a067a05993e7)
+
+This is the same waveform but the frequency spectrum is more visible showing that the 2kHz spikes are higher than the 1kHz spikes.
+
+![image](https://github.com/blee0730/Digital-Comm-Lab-5/assets/130094173/c1826a9d-8581-462d-8e0c-f561a4346051)
+
+This is the recovered signal of the second message at 1kHz frequency. As shown in the picture the time domain shows the 1kHz frequency as opposed to the orange 2kHz frequency waveform.
+
+![image](https://github.com/blee0730/Digital-Comm-Lab-5/assets/130094173/2fe58532-10e5-4107-b3fe-39377f83a78f)
+
+This is the same waveform but the frequency spectrum is more visible showing that the 1kHz spikes are higher than the 2kHz spikes.
